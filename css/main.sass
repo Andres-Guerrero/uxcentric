@@ -1,0 +1,101 @@
+:root
+    --red: #DF4861
+
+*
+    margin: 0
+    padding: 0
+
+*,
+::after,
+::before
+    box-sizing: border-box
+
+html
+    font-size: 16px
+
+body
+    font-family: 'Noir Pro', Helvetica, Arial, sans-serif
+    
+header
+    padding-top: 20px
+    display: flex
+    flex-direction: column
+
+.portfolio__name
+    margin-bottom: 40px
+
+.portfolio__name h1
+    padding-bottom: 4px
+    line-height: 34px
+    font-size: 2.5rem
+    text-transform: uppercase
+
+.portfolio__name h3
+    font-size: 1.125rem
+    font-weight: 500
+    color: var(--red)
+
+#portfolio__content-wrapper
+    padding: 0 20px
+
+nav
+    display: flex
+    justify-content: space-between
+
+main
+    margin: 50px 0
+    
+main p
+    font-size: 1.5rem
+    font-weight: lighter
+
+.portfolio__project-cover-images
+    display: flex
+    justify-content: space-evenly
+
+
+@media screen and ( min-width: 1000px )
+    #portfolio__content-wrapper
+        max-width: 1000px
+        margin: 0 auto
+
+    header
+        padding-top: 40px
+        flex-direction: row
+        justify-content: space-between
+
+    .portfolio__name h1
+        font-size: 4rem
+        line-height: 56px
+
+    .portfolio__name h3
+        font-size: 1.875rem
+
+    nav
+        justify-content: flex-end
+
+    main
+        margin: 100px 0
+        padding: 0 30%
+        display: flex
+        justify-content: center
+
+    .portfolio__project-cover
+        height: 400px
+        position: relative
+        overflow: hidden
+
+    /* Pharmacy Gdl. */
+    .portfolio__project--fg
+        width: 100%
+        position: absolute
+        background-color: #FACECF
+
+    .fg__phone--center
+        position: relative
+        top: 35px
+
+    .fg__phone--lateral
+        position: relative
+        top: 85px
+    
