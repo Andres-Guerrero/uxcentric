@@ -72,10 +72,10 @@ header {
 
 nav {
   display: flex;
-  justify-content: space-between;
 }
 
 nav a {
+  margin-right: 40px;
   text-decoration: none;
   color: #000;
 }
