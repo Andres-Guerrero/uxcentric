@@ -1,1 +1,6 @@
 design assets
+uxcentric.code-workspace
+images/ignore
+images/*/ignore
+css/main.css.map
+css/main.sass
